@@ -24,4 +24,4 @@
   1     I am a dog \
   2            NaN \
   3  I am a rabbit \
-  dtype: object \
+  dtype: object 
