@@ -19,8 +19,8 @@
   ***Example:***
   s = pd.Series(['cat', 'dog', np.nan, 'rabbit'])
   s.map('I am a {}'.format, na_action='ignore')
-  ***Output***__
-  0     I am a cat__
+  ***Output*** _
+  0     I am a cat _
   1     I am a dog__
   2            NaN__
   3  I am a rabbit__
