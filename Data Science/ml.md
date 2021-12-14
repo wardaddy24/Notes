@@ -33,6 +33,6 @@ If classification -> return mode of labels \
 ### Advantages
 1-The algorithm is simple and easy to implement.\
 2-There’s no need to build a model, tune several parameters, or make additional assumptions.\
-3-The algorithm is versatile. It can be used for classification, regression, and search (as we will see in the next section).
+3-The algorithm is versatile. It can be used for classification, regression, and search.
 ### Disadvantages
 1 -The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase. 
