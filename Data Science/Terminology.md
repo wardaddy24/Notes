@@ -10,6 +10,14 @@
 4. We can interpolate data in the latent space, and use our model’s decoder to ‘generate’ data samples.
 5. We can visualize the latent space using algorithms such as t-SNE and LLE, which takes our latent space representation and transforms it into 2D or 3D.
 
+## KL Divergence or relative entropy:
+1. quantifies how much one probability distribution differs from another probability distribution.
+2. The KL divergence between two distributions Q and P is often stated using the following notation: KL(P || Q) - Where the “||” operator indicates “divergence” or Ps divergence from Q.
+3. KL(P || Q) = sum x in X P(x) * log(P(x) / Q(x))
+4. It can be used to measure the divergence between discrete and continuous probability distributions, where in the latter case the integral of the events is calculated instead of the sum of the probabilities of the discrete events.
+5. Importantly, the KL divergence score is not symmetrical, for example: KL(P || Q) != KL(Q || P)
+6. SciPy library provides the kl_div() function for calculating the KL divergence, although with a different definition as defined here. It also provides the rel_entr() function for calculating the relative entropy same as here.
+
 ## Inception Score:
 1. It is an objective metric for evaluating the quality of generated images, specifically synthetic images output by generative adversarial network models.
 2. The inception score has a lowest value of 1.0 and a highest value of the number of classes supported by the classification model.
