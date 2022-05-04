@@ -1,0 +1,19 @@
+1- Find the nth highest salary.
+
+a) SELECT ename,sal from Employee e1 where 
+        N-1 = (SELECT COUNT(DISTINCT sal)from Employee e2 where e2.sal > e1.sal)
+        
+b) Select Salary from table_name order by Salary DESC limit n-1,1;        
+
+2- Write SQL Query to display the current date?
+
+a) SELECT GetDate(); 
+
+3- Write an SQL Query to check whether the date passed to Query is the date of the given format or not?
+
+a) SELECT  ISDATE('1/08/13') AS "MM/DD/YY"; 
+
+4 - Write an SQL Query to find the year from date.
+
+a) SELECT YEAR(GETDATE()) as "Year";
+
