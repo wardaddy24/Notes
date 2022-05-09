@@ -1,6 +1,7 @@
 **Q.1 In what situation would you consider mean over median?** <br>
-Ans *To use the median when the the distribution of data values is skewed or when there are clear outliers.* 
+Ans *To use the median when the the distribution of data values is skewed or when there are clear outliers.* <br> 
 <br>
+
 **Q.2 For sample size n, the margin of error is 3. How many more samples do we need to make the margin of error 0.3?** <br>
 Ans ***Margin of error is proportional to 1/sqrt(N)*** <br>
 3 *sqrt(n)/sqrt(n_new) = 0.3<br>
@@ -24,5 +25,7 @@ Normality: For any fixed value of X, Y is normally distributed.*
 <br>
 
 **Q.4 Given data from two product campaigns, how could you do an A/B test if we see a 3% increase for one product?** <br>
-Ans * Check for the variation from the control. Run some offer for a number of days or increase the trial/availability for the other product.Theoritcal question subjected to type of product*
+Ans *Check for the variation from the control. Run some offer for a number of days or increase the trial/availability for the other product.Theoritcal question subjected to type of product*
+<br>
+https://vwo.com/blog/ab-testing-examples/
 <br>
