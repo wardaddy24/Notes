@@ -36,3 +36,17 @@ If classification -> return mode of labels \
 3-The algorithm is versatile. It can be used for classification, regression, and search.
 ### Disadvantages
 1 -The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase. 
+
+
+<br>
+**What is the difference between bagging and boosting?** <br>
+Ans. Bagging, also known as bootstrap aggregating, is the process in which multiple models of the same learning algorithm are trained with bootstrapped samples of the original dataset. Then, like the random forest, a vote is taken on all of the models’ outputs. <br>
+Boosting is a variation of bagging where each individual model is built sequentially, iterating over the previous one. Specifically, any data points that are falsely classified by the previous model is emphasized in the following model. This is done to improve the overall accuracy of the model. Once the first model is built, the falsely classified/predicted points are taken in addition to the second bootstrapped sample to train the second model. Then, the ensemble models (models 1 and 2) are used against the test dataset and the process continues.
+<br>
+
+## Regularization
+**L1 regularization:** It adds an L1 penalty that is equal to the absolute value of the magnitude of coefficient, or simply restricting the size of coefficients. For example, Lasso regression implements this method.  L1 regularization attempts to estimate the median of data. It is robust to outliers.
+<br>
+**L2 Regularization:** It adds an L2 penalty which is equal to the square of the magnitude of coefficients. For example, Ridge regression and SVM implement this method. L2 regularization makes estimation for the mean of the data. It is not robust to outliers.
+<br>
+**Elastic Net:** When L1 and L2 regularization combine together, it becomes the elastic net method, it adds a hyperparameter.
