@@ -57,3 +57,8 @@ Boosting is a variation of bagging where each individual model is built sequenti
 **L2 Regularization:** It adds an L2 penalty which is equal to the square of the magnitude of coefficients. For example, Ridge regression and SVM implement this method. L2 regularization makes estimation for the mean of the data. It is not robust to outliers.
 <br>
 **Elastic Net:** When L1 and L2 regularization combine together, it becomes the elastic net method, it adds a hyperparameter.
+
+## Backprop and Gradient descent
+**Stochastic gradient descent** is an optimization algorithm for minimizing the loss of a predictive model with regard to a training dataset. <br>
+**Back-propagation** is an automatic differentiation algorithm for calculating gradients for the weights in a neural network graph structure. <br>
+Stochastic gradient descent and the back-propagation of error algorithms together are used to train neural network models. <br>
